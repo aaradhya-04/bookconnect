@@ -10,4 +10,14 @@ const pool = mysql.createPool({
   connectionLimit: 10
 });
 
-module.exports = { pool };
+// Test connection
+pool.getConnection()
+  .then(conn => {
+    console.log('MySQL connected!');
+    conn.release();
+  })
+  .catch(err => {
+    console.error('MySQL connection error:', err);
+  });
+
+module.exports = pool;

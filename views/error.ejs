@@ -1,23 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Error</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #f8d7da; color: #721c24; text-align: center; padding: 50px; }
-    .error-box {
-      background: #f5c6cb;
-      border: 1px solid #f5c2c7;
-      padding: 20px;
-      border-radius: 5px;
-      display: inline-block;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Error - BookConnect</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <div class="error-box">
-    <h1>Oops! Something went wrong</h1>
-    <p><%= error && error.message ? error.message : "Unknown error occurred." %></p>
-    <a href="/" style="color: #721c24; font-weight: bold;">Go Back Home</a>
-  </div>
+  <%- include('partials/header') %>
+  <main>
+    <h1>Error</h1>
+    <p><%= error.message || error %></p>
+    <a href="/">Go Home</a>
+  </main>
+  <%- include('partials/footer') %>
 </body>
 </html>

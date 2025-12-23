@@ -1,4 +1,4 @@
-const { pool } = require('../db');
+const pool = require('../db');
 
 async function createUser({ username, email, passwordHash }) {
   const [result] = await pool.query(
@@ -13,4 +13,9 @@ async function findByEmail(email) {
   return rows[0];
 }
 
-module.exports = { createUser, findByEmail };
+async function countAll() {
+  const [rows] = await pool.query('SELECT COUNT(*) AS count FROM users');
+  return rows[0].count || 0;
+}
+
+module.exports = { createUser, findByEmail, countAll };
