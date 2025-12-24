@@ -77,3 +77,13 @@ if ($currentUserCerts -or $localMachineCerts) {
 
 Write-Host ""
 
+
+
+
+
+
+
+
+
+
+

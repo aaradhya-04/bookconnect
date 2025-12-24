@@ -75,3 +75,13 @@ If it says `http://`, the certificates weren't found. Check:
 2. File names are exactly: `localhostkey.pem` and `localhostcert.pem`
 3. Server has read permissions to the certs folder
 
+
+
+
+
+
+
+
+
+
+

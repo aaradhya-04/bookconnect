@@ -8,3 +8,13 @@ router.get('/:authorName', asyncHandler(authorController.getAuthorProfile));
 
 module.exports = router;
 
+
+
+
+
+
+
+
+
+
+

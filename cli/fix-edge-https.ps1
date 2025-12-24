@@ -146,3 +146,13 @@ Write-Host "   - Double-click: $cerPath" -ForegroundColor White
 Write-Host "   - Install to 'Trusted Root Certification Authorities'" -ForegroundColor White
 Write-Host ""
 
+
+
+
+
+
+
+
+
+
+

@@ -8,3 +8,13 @@ router.get('/', requireAuth, chatController.showChat);
 
 module.exports = router;
 
+
+
+
+
+
+
+
+
+
+

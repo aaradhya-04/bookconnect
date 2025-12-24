@@ -120,3 +120,13 @@ Edge is more strict than Chrome about certificates. After installing:
 
 The certificate is properly installed - Edge just needs a complete restart to recognize it!
 
+
+
+
+
+
+
+
+
+
+

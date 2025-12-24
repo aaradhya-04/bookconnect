@@ -37,3 +37,13 @@ Once data is created, you'll see these collections:
 
 Right now, your database is empty (0 users, 0 books, 0 reviews), which is why you don't see it in Compass yet. The application is running fine - it just hasn't created any data yet!
 
+
+
+
+
+
+
+
+
+
+

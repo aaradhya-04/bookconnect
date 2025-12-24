@@ -99,3 +99,13 @@ All existing frontend styling and design has been maintained. The new features u
 - Author profile matches partial author names
 - All features require user authentication (except viewing author profiles)
 
+
+
+
+
+
+
+
+
+
+

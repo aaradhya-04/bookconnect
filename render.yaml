@@ -33,3 +33,13 @@ databases:
     plan: free
     # Redis is optional - app works with MongoDB sessions only
 
+
+
+
+
+
+
+
+
+
+
